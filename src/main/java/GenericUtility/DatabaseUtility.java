@@ -42,12 +42,18 @@ public class DatabaseUtility
 			{
 				flag=true;//risng flag
 				break;
-			}else {
+			}
+		}
+		if(flag)
+		{
+			System.out.println(expData+"===> Data Verified ");
+			return expData;
+		}
+			else {
 					System.out.println("dta not present");
 					return "";
 			  	  }
-		}
-		return "";	
+		
 	}
 	
 	public void closeDB() throws Throwable
@@ -55,3 +61,9 @@ public class DatabaseUtility
 		con.close();
 	}
 }
+
+
+
+
+
+

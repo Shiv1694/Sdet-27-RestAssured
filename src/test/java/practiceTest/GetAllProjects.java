@@ -1,4 +1,4 @@
-package practcepgms;
+package practiceTest;
 
 import static org.junit.Assert.assertThat;
 

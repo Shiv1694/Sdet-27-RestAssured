@@ -7,7 +7,7 @@ package GenericUtility;
  */
 public interface IConstants 
 {
-	String dbURL="jdbc:mysql://localhost:projects";
+	String dbURL="jdbc:mysql://localhost:3306/projects";//jdbc:mysql://localhost:3306/project
 	String dbUserName="root";
 	String dbPassword="root";
 }

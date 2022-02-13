@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-11T18:21:56 IST" name="Default suite" finished-at="2022-02-11T18:21:58 IST" duration-ms="2544">
+  <suite started-at="2022-02-13T20:44:57 IST" name="Default suite" finished-at="2022-02-13T20:45:03 IST" duration-ms="5948">
     <groups>
     </groups>
-    <test started-at="2022-02-11T18:21:56 IST" name="Default test" finished-at="2022-02-11T18:21:58 IST" duration-ms="2544">
-      <class name="practcepgms.ModifyPRojectNAmeTest">
-        <test-method signature="modify()[pri:0, instance:practcepgms.ModifyPRojectNAmeTest@d6e7bab]" started-at="2022-02-11T18:21:56 IST" name="modify" finished-at="2022-02-11T18:21:58 IST" duration-ms="2482" status="FAIL">
+    <test started-at="2022-02-13T20:44:57 IST" name="Default test" finished-at="2022-02-13T20:45:03 IST" duration-ms="5948">
+      <class name="practiceTest.CreateUSerWithInvalidMobileNumTest">
+        <test-method signature="CreateUSerWithInvalidMobileNum()[pri:0, instance:practiceTest.CreateUSerWithInvalidMobileNumTest@1649b0e6]" started-at="2022-02-13T20:44:57 IST" name="CreateUSerWithInvalidMobileNum" finished-at="2022-02-13T20:45:03 IST" duration-ms="5881" status="FAIL">
           <exception class="java.lang.NoSuchMethodError">
             <message>
               <![CDATA['void org.hamcrest.Matcher.describeMismatch(java.lang.Object, org.hamcrest.Description)']]>
@@ -64,7 +64,7 @@ at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
 at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
 at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
 at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-at practcepgms.ModifyPRojectNAmeTest.modify(ModifyPRojectNAmeTest.java:20)
+at practiceTest.CreateUSerWithInvalidMobileNumTest.CreateUSerWithInvalidMobileNum(CreateUSerWithInvalidMobileNumTest.java:22)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -98,8 +98,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.NoSuchMethodError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- modify -->
-      </class> <!-- practcepgms.ModifyPRojectNAmeTest -->
+        </test-method> <!-- CreateUSerWithInvalidMobileNum -->
+      </class> <!-- practiceTest.CreateUSerWithInvalidMobileNumTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

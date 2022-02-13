@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practcepgms.ModifyPRojectNAmeTest">
+      <class name="practiceTest.CreateUSerWithInvalidMobileNumTest">
         <methods>
-          <include name="modify"/>
+          <include name="CreateUSerWithInvalidMobileNum"/>
         </methods>
-      </class> <!-- practcepgms.ModifyPRojectNAmeTest -->
+      </class> <!-- practiceTest.CreateUSerWithInvalidMobileNumTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
